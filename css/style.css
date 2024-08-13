@@ -1,0 +1,99 @@
+/*============================
+            css reset
+=============================*/
+
+*{
+        padding: 0;
+        margin: 0;
+        vertical-align: baseline;
+        list-style: none;
+        border: 0
+    }
+
+
+/*============================
+        formatação geral
+=============================*/
+
+html {
+    font-size: calc(5px + 0.7vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21245d;
+}
+
+html body a{
+    text-decoration: none;
+    color: #21245d;
+}
+
+/*============================
+    formatação do topo da pagina
+=============================*/
+
+header{
+    margin: 0 5vw 3vw;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+   
+}
+
+header nav ul li {
+    margin: 2vw 10px 0 10px;
+}
+
+header nav ul li.atual a {
+    color: #880053;
+}
+
+/*============================
+    formatação do conteudo
+=============================*/
+main.works {
+    margin: 0 30vw 0 30vw;
+}
+main.works h1{
+    font-weight: normal; /*Negrito da fonte*/
+    margin: 0 0 2vw 0;/*espaçamento do texto*/
+    color: #21245d;
+}
+main.works section{
+    border-bottom: 1px solid #e0e0e0;/*borda*/
+    padding: 0 0 1vw 0;
+}
+main.works section:last-child{/*Remoção da borda final*/
+    border: none;
+}
+main.works section p{
+    margin: 1vw 0 2vw 0;/*espaçamento do parágrafo*/
+}
+main.works section p span{
+    color: white;/*cor do texto*/
+    background-color: #ff6464; /*cor do fundo*/
+    border-radius: 30px;/*borda do span*/
+    padding: 4px 7px 4px 7px;/*espaçamento do span*/
+    font-weight: bold;
+}
+main.works section h2 {
+    margin: 3vw 0 2vw;  /*aleteração em tamanhos na página*/
+}
+/*============================
+    formatação do rodapé
+=============================*/
+footer {
+    text-align: center; /*centralização do rodapé*/
+    padding: 0 0 2vw 0;
+}
+footer nav ul{
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    justify-content: center;
+}
+footer nav ul li{
+    margin: 55px 15px 10px 15px;
+    font-size: 45px;
+}
+footer nav ul li a span{
+    display: flex;
+    color: #21243d;
+}
