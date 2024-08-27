@@ -122,7 +122,40 @@ section.rt-post ul li h3 {
     margin: 1.5vw 0vw 1.5vw 0vw;
 }
 
+section.ft-works h2 {
+    font-size: 2rem;
+    margin: 0vw 0vw 3vw 0vw;
+}
+section.ft-works > div {
+    display: flex ;
+}
 
+section.ft-works div h3 {
+    margin: 1.5 vw 0 1.5vw 0;
+}
+
+section.ft-works div p span{
+    font-size: 1rem;
+    padding: 4px 15px 4px 15px;
+
+}
+section.ft-works div p span:first-child {
+    color: white;
+    background: #142850;
+    border-radius: 2vw;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 4px 15px 4px 15px;
+}
+section.ft-works div p span:last-child{
+
+    color: grey;
+    font-size: 1.1rem;
+    padding: 4px 15px 4px 15px;
+}
+section.ft-works div p{
+    padding: 0.8vw;
+}
 /*============================
     formatação do rodapé
 =============================*/
